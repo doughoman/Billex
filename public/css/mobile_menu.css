@@ -1,0 +1,92 @@
+.mobile-menu-main {
+    background-color: #ffffff;
+    border: 1px solid #e3e3e3;
+}
+.mobile-link {
+    border-bottom: 1px solid #e3e3e3;
+}
+.mobile-menu-main .mobile-link a{
+	padding: 10px !important;
+	color: #000000;
+	font-size: 15px;
+	font-weight: 600;
+}
+/*.mobile-menu-main .mobile-link a i{
+	padding-right: 10px;
+}*/
+
+.mobile-menu-main .mobile-link .echng{
+	color:skyblue;
+}
+.mobile-menu-main .mobile-link .bchange{
+	color: gold;
+}
+.mobile-menu-main .mobile-link .pchange{
+	color: green;
+}
+.mobile-menu-main .mobile-link .pdeposit{
+	color: #000000;
+}
+.mobile-menu-main .mobile-link .cust{
+	color: brown;
+}
+.mobile-menu-main .mobile-link .adminst{
+	color: gray;
+}
+
+#mobnav .navbar-sidenav .nav-link-collapse:after {
+    float: right;
+    content: '\f078';
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: inherit;
+    font-size: 13px;
+    font-family: "Font Awesome 5 Free";
+}
+#mobnav .navbar-sidenav .nav-link-collapse.collapsed:after {
+    content: '\f054';
+}
+.mob-sub li {
+    list-style: none;
+    border-bottom: 1px solid #e3e3e3;
+    padding: 10px;
+}
+.mob-sub{
+   padding-left: 0px;
+}
+#mobnav .dropdown-message {
+    overflow: hidden;
+    max-width: none;
+    text-overflow: ellipsis;
+}
+.user-mar{
+	margin-left: 100px;
+}
+.black{
+    color: #000000;
+}
+.skyblue{
+    color: skyblue;
+}
+.gold{
+    color: #CFC493;
+}
+.green{
+    color: green;
+}
+.brown{
+    color: brown;
+}
+.gray{
+    color: gray;
+}
+.active_menu i{
+    color: #ffffff;
+}
+#mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item > .nav-link:hover i {
+    color: #ffffff;
+}
+.type_select_option .bootstrap-select>.dropdown-toggle {
+    border: 1px solid #ced4da;
+    background-color: #ffffff;
+}

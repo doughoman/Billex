@@ -1,0 +1,187 @@
+.customer_charge .edittable-cols {
+    padding: 0px;
+}
+.table-cols,.dtable-cols {
+    padding: 0px;
+}
+.colleps_deposit .table-cols,.colleps_deposit .dtable-cols {
+    padding: 0px 10px;
+}
+.customer_charge .deletetable-cols{
+    padding: 0px;
+}
+.charges_header_div,.btn-submit,.btn-adduser,.post_payment_customer .cust_name,.post_payment_customer .cust_contact,.post_payment_customer .cust_address,.cust_balance {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.admin-contain-main-div{
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 10px !important;
+    padding-bottom: 20px !important;
+}
+.table-col {
+    padding: 5px;
+}
+.view_invoice_div,.table-col_status p ,.item_listing .colpsclick,.add_recuring_div,.customer_rates_text p{
+    margin-bottom: 0px;
+}
+.form-group,.user_alert_list{
+    margin-bottom:5px;
+}
+label{
+    margin-bottom: 0;
+}
+#charge_description{
+    width: 50%;
+}
+.print_deposit .table-cols,.item_option_link,.user_alert_list,.biller_activity,.table-col,.table-col_name,.print_deposit .checktable-cols,.print_deposit .ref-table-cols,.print_deposit .dtable-cols{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.ref-table-cols p{
+    margin-bottom: 0;
+}
+.user_listing .table-col,.table-col_status{
+    display: flex;
+    align-items: center;
+}
+.header_text{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.customer_recuring .edittable-cols,.customer_recuring .deletetable-cols,.customer_rates .name_table_cols,.customer_rates .dtable-cols,.customer_rates .table-cols,.customer_rates_text{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.identification{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    min-height: 0px;
+}
+.charge-edittable-cols,.customer_register .edittable-cols,.customer_register .table-cols,.customer_register .tbl_refernce,.customer_register .dtable-cols,.make_payment_form .table-cols{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.angle-righticon>i {
+    font-size: 15px;
+}
+.deposit-details-main .edittable-cols,.deposit-details-main .deletetable-cols{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.table-col_name,.table-col_image, .table-col_status, .user_listing .table-col{
+    padding: 5px;
+}
+.table-col_image {
+    display: flex;
+    align-items: center;
+}
+.user_main_div{
+    padding: 0;
+}
+.user_information{
+    padding-left:  0.7rem;
+}
+.user_email_phone{
+    margin-top: -7px;
+}
+.user_profile_image img {
+    width: 70px;
+}
+.user_listing_main {
+    margin-bottom: 5px;
+}
+.item_listing .header_text {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.add_item_link_top{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 5px;
+}
+.add_item_link_bottom{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 5px;
+}
+.preview_process_div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.angle-righticon-list {
+    position: absolute;
+    right: 1%;
+    top: 40%;
+}
+.customer_action_icon{
+	left: 180px;
+}
+.charges_header_div .table-cols{
+    padding-right: 0px;
+}
+.charges-details-main .charges_header_div{
+    padding: 0;
+}
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+    .print_deposit .table-cols, .item_option_link, .user_alert_list, .biller_activity, .table-col, .print_deposit .checktable-cols, .print_deposit .ref-table-cols, .print_deposit .dtable-cols{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .user_listing .table-col, .table-col_status {
+        display: block;
+        align-items: center;
+    }
+    .action_buttons button {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+@media only screen and (min-width:576px) and (max-width: 767px) {
+    .print_deposit .table-cols, .item_option_link, .user_alert_list, .biller_activity, .table-col, .table-col_name, .table-col_image, .table-col_status, .user_listing .table-col, .print_deposit .checktable-cols, .print_deposit .ref-table-cols, .print_deposit .dtable-cols{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .user_listing .table-col, .table-col_status {
+        display: block;
+        align-items: center;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .customer_listing_main .more{
+        display: none;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .customer_listing_main .more{
+        display: none;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+    .angle-righticon-list {
+        right: 3%;
+        top: 40%;
+    }
+}
+@media only screen and (min-width: 1441px) and (max-width: 1600px) {
+	.angle-righticon-list {
+        right: 4%;
+        top: 40%;
+    }	
+    .actions-icon {
+    	left: 85px;
+	}
+}
+@media only screen and (min-width: 1601px) and (max-width: 1800px) {
+	.angle-righticon-list {
+        right: 4%;
+        top: 40%;
+    }	
+    .actions-icon {
+    	left: 85px;
+	}
+}
